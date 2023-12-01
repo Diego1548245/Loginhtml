@@ -56,6 +56,18 @@ body {
     display: block;
 }
 
+.wrapper .change-password-box {
+    display: none;
+}
+
+.wrapper.change .change-password-box{
+    display: block;
+}
+
+.wrapper.change .login-box{
+    display: none;
+}
+
 h2 {
     font-size: 2em;
     color: #fff;
@@ -104,6 +116,21 @@ h2 {
 }
 
 .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+.change-password {
+    margin: -15px 0 15px;
+}
+
+.change-password a {
+    color: #fff;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.change-password a:hover {
     text-decoration: underline;
 }
 
